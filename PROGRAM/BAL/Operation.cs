@@ -8,9 +8,11 @@ using BEL ;
 using System.Data;
 using System.Data.SqlClient;
 
+namespace BAL 
 {
     public class Operation
     {
+	//публичная переменная для подключения к БД
         public Dbconnection db = new Dbconnection();
         public Informations info = new Informations();
 
