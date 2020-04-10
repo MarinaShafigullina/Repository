@@ -8,7 +8,6 @@ using BEL ;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace BAL
 {
     public class Operation
     {
